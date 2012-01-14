@@ -1,0 +1,35 @@
+Differences between 0.1 and 0.1.1
+
+- updated to work with SQLAlchemy 0.4.x
+
+Differences between 0.1.1 and 0.1.2
+
+- updated to work with boto 1.x
+
+Differences between 0.1.2 and 0.1.3
+
+- better clean up of file handlers for filesystem based storage
+  and caching (per Larry Meyn)
+
+What's new with 0.2.1
+
+ - Cleanup
+ - Bunch of suggestions from Kevin Dangoor
+
+What's new with 0.2.2
+
+- remove hardcoded dependencies of dusty antiquity
+- allow override of pickle protocol (per Ling Li)
+
+What's new with 0.3.0
+
+- Redis support for store
+- Apache Cassandra support for store (deletion is eventually consistent)
+
+What's new with 0.3.1
+
+- fix wrong keyword in store tests (per Ling Li)
+
+What's new with 0.3.2
+
+- make key exceptions work with tuples (per Ling Li)
