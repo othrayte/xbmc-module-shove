@@ -5,7 +5,7 @@
        provider-name="L. C. Rees">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
-    <import addon="script.module.SQLAlchemy" version="0.4"/>
+    <import addon="script.module.SQLAlchemy" version="0.7.4.1"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
